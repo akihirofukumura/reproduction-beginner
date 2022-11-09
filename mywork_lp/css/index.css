@@ -17,52 +17,21 @@ a {
   color: #24292e;
 }
 
+.header nav ul li img {
+  width: 15px;
+  align-items: center;
+}
+
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 450px;
-  height: 240px;
+  justify-content: space-between;
+  margin: 0 400px;
+  height: 230px;
+  /* justify-content: space-around; */
 }
 
-.nav-list {
+.header nav > ul {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-}
-
-.nav-list > li a {
-  width: 100%;
-}
-
-.nav-list > .instagram-icon {
-  width: 75px;
-  height: 75px;
-}
-
-.nav-list > .instagram-icon > a > img {
-  width: 100%;
-  height: 100%;
-}
-
-/* レスポンシブ（スマホ版） */
-
-@media screen and (max-width: 600px) {
-  .header {
-    width: 100%;
-  }
-
-  .header img {
-  }
-}
-
-@media screen and (max-width: 600px) {
-  main {
-    width: 100%;
-  }
-  main > h1 > img {
-    width: 100%;
-    height: 450px;
-  }
+  gap: 20px;
 }
