@@ -70,15 +70,31 @@ main .wrap h3 {
   color: #24292e;
 }
 
-main .wrap ul {
+main .wrap .abouContentl {
   margin-top: 40px;
 }
 
-main .wrap ul li:first-child {
+main .wrap .abouContent li:first-child {
   /* border: tomato 1px solid; */
   padding-bottom: 30px;
 }
 
 main .wrap .aboutText {
   margin-top: 40px;
+}
+
+main .wrap .workImgWrap {
+  border: tomato 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main .wrap .workImgWrap li {
+  width: 32%;
+}
+
+main .wrap .workImgWrap img {
+  max-width: 100%;
+  padding-left: 20px;
 }
