@@ -98,3 +98,9 @@ main .wrap .workImgWrap img {
   max-width: 100%;
   padding-left: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  main .wrap .workImgWrap li {
+    width: 100%;
+  }
+}
