@@ -58,7 +58,7 @@ main > h2 img {
 
 main .wrap {
   max-width: 950px;
-  height: 400px;
+  height: 100%;
   margin: 80px auto;
   padding: 0 4%;
   border: tomato 1px solid;
@@ -103,4 +103,20 @@ main .wrap .workImgWrap img {
   main .wrap .workImgWrap li {
     width: 100%;
   }
+}
+
+main .wrap dl {
+  display: flex;
+  flex-wrap: wrap;
+  border: tomato 1px solid;
+}
+
+main .wrap dt {
+  width: 20%;
+  border: tomato 1px solid;
+}
+
+main .wrap dd {
+  border: tomato 1px solid;
+  width: 80%;
 }
