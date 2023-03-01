@@ -108,15 +108,17 @@ main .wrap .workImgWrap img {
 main .wrap dl {
   display: flex;
   flex-wrap: wrap;
-  border: tomato 1px solid;
+  border-top: rgb(51, 49, 49) 1px solid;
+  border-bottom: rgb(51, 49, 49) 1px solid;
 }
 
 main .wrap dt {
   width: 20%;
-  border: tomato 1px solid;
+  border-bottom: rgb(51, 49, 49) 1px solid;
+  padding: 10px;
 }
 
 main .wrap dd {
-  border: tomato 1px solid;
+  border-top: rgb(51, 49, 49) 1px solid;
   width: 80%;
 }
