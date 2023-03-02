@@ -109,7 +109,6 @@ main .wrap dl {
   display: flex;
   flex-wrap: wrap;
   border-top: rgb(51, 49, 49) 1px solid;
-  border-bottom: rgb(51, 49, 49) 1px solid;
 }
 
 main .wrap dt {
@@ -119,6 +118,7 @@ main .wrap dt {
 }
 
 main .wrap dd {
-  border-top: rgb(51, 49, 49) 1px solid;
+  border-bottom: rgb(51, 49, 49) 1px solid;
   width: 80%;
+  padding: 10px;
 }
