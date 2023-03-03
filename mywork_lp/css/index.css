@@ -124,11 +124,23 @@ main .wrap .newsDatetitle {
   font-size: 0.9em;
 }
 
+@media screen and (max-width: 600px) {
+  main .wrap .newsDatetitle {
+    border: none;
+  }
+}
+
 main .wrap .newsDate {
   border-bottom: rgb(51, 49, 49) 1px solid;
   width: 80%;
   padding: 10px;
   font-size: 0.8em;
+}
+
+@media screen and (max-width: 600px) {
+  main .wrap .newsDate {
+    width: 100%;
+  }
 }
 
 main .wrap form .contactDateWrap {
