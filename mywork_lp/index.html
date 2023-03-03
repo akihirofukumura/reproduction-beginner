@@ -80,22 +80,48 @@
       </figure> -->
       <section class="wrap">
         <h3>News</h3>
-        <dl>
-          <dt>2020.XX.XX</dt>
-          <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
-          <dt>2020.XX.XX</dt>
-          <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
-          <dt>2019.XX.XX</dt>
-          <dd>
+        <dl class="newsDateWrap">
+          <dt class="newsDatetitle">2020.XX.XX</dt>
+          <dd class="newsDate">
+            デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
+          </dd>
+          <dt class="newsDatetitle">2020.XX.XX</dt>
+          <dd class="newsDate">
+            ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。
+          </dd>
+          <dt class="newsDatetitle">2019.XX.XX</dt>
+          <dd class="newsDate">
             【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
           </dd>
-          <dt>2019.XX.XX</dt>
-          <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
-          <dt>2019.XX.XX</dt>
-          <dd>
+          <dt class="newsDatetitle">2019.XX.XX</dt>
+          <dd class="newsDate">
+            デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。
+          </dd>
+          <dt class="newsDatetitle">2019.XX.XX</dt>
+          <dd class="newsDate">
             【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
           </dd>
         </dl>
+      </section>
+      <section class="wrap">
+        <h3>Contact</h3>
+        <form action="#" method="post">
+          <dl class="contactDateWrap">
+            <dt class="contactTitle"><label for="name">NAME</label></dt>
+            <dd class="contactDate">
+              <input type="text" id="name" name="name" size="70" />
+            </dd>
+            <dt class="contactTitle"><label for="email">E-mail</label></dt>
+            <dd class="contactDate">
+              <input type="email" id="email" name="mail" size="70" />
+            </dd>
+            <dt class="contactTitle"><label for="text">MESSAGE</label></dt>
+            <dd class="contactDate">
+              <textarea name="text" id="text" cols="69" rows="10"></textarea>
+            </dd>
+          </dl>
+          <input type="submit" value="送信" class="submitBtn" />
+        </form>
       </section>
     </main>
     <footer></footer>

@@ -105,20 +105,86 @@ main .wrap .workImgWrap img {
   }
 }
 
-main .wrap dl {
+main .wrap .newsDateWrap {
   display: flex;
   flex-wrap: wrap;
   border-top: rgb(51, 49, 49) 1px solid;
 }
 
-main .wrap dt {
+@media screen and (max-width: 600px) {
+  main .wrap .newsDateWrap {
+    display: inline-block;
+  }
+}
+
+main .wrap .newsDatetitle {
   width: 20%;
   border-bottom: rgb(51, 49, 49) 1px solid;
   padding: 10px;
+  font-size: 0.9em;
 }
 
-main .wrap dd {
+main .wrap .newsDate {
   border-bottom: rgb(51, 49, 49) 1px solid;
   width: 80%;
   padding: 10px;
+  font-size: 0.8em;
+}
+
+main .wrap form .contactDateWrap {
+  /* border: tomato 1px solid; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  main .wrap form .contactDateWrap {
+    /* border: tomato 1px solid; */
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+main .wrap form .contactTitle {
+  /* border: tomato 1px solid; */
+  width: 20%;
+  padding: 10px;
+}
+
+main .wrap form .contactDate {
+  /* border: tomato 1px solid; */
+  width: 90%;
+  padding: 10px;
+}
+
+main .wrap form .contactDate input {
+  border: rgb(64, 60, 59) 1px solid;
+  height: 40px;
+}
+@media screen and (max-width: 600px) {
+  main .wrap form .contactDate input {
+    /* border: tomato 1px solid; */
+    width: 100%;
+  }
+}
+
+main .wrap form .contactDate textarea {
+  border: rgb(64, 60, 59) 1px solid;
+}
+
+@media screen and (max-width: 600px) {
+  main .wrap form .contactDate textarea {
+    /* border: tomato 1px solid; */
+    width: 100%;
+  }
+}
+
+main .wrap form .submitBtn {
+  width: 140px;
+  height: 50px;
+  border: rgb(64, 60, 59) 1px solid;
+  display: block;
+  background-color: rgb(46, 46, 50);
+  color: #ffee;
+  margin: 0 auto;
 }
