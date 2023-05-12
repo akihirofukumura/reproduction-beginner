@@ -1,0 +1,9 @@
+html {
+  font-size: 62.4%;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  background-color: tomato;
+}
