@@ -7,3 +7,9 @@ html {
   height: 90px;
   background-color: tomato;
 }
+
+nav {
+  border: tomato 1px solid;
+  display: flex;
+  padding: 20px;
+}
