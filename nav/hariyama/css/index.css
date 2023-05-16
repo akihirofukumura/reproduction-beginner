@@ -7,15 +7,29 @@ html {
   height: 90px;
   background-color: tomato;
 }
+/* Logoレスポンシブ時 */
+@media screen and (max-width: 1000px) {
+  .logo {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+  }
+}
+
+li {
+  list-style: none;
+  font-size: 1.6em;
+}
 
 nav {
   border: tomato 1px solid;
   display: flex;
-  padding: 20px;
+  padding: 20px 80px;
+  justify-content: space-between;
 }
 
 nav ul {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
 }
