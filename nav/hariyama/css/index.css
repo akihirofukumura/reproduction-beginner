@@ -6,30 +6,46 @@ html {
   width: 90px;
   height: 90px;
   background-color: tomato;
-}
-/* Logoレスポンシブ時 */
-@media screen and (max-width: 1000px) {
-  .logo {
-    width: 90px;
-    height: 90px;
-    background-color: blue;
-  }
+  /* margin-right: 80px; */
 }
 
 li {
+  display: flex;
+  align-items: center;
+  border: tomato 1px solid;
   list-style: none;
   font-size: 1.6em;
+  /* width: 98px; */
+  height: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1b1b;
+  display: block;
 }
 
 nav {
+  width: 100%;
+  height: 100%;
   border: tomato 1px solid;
   display: flex;
-  padding: 20px 80px;
+  align-items: center;
   justify-content: space-between;
+  padding: 0 30px;
 }
 
 nav ul {
   display: flex;
-  align-items: center;
-  gap: 50px;
+  gap: 45px;
+  border: tomato 1px solid;
+  height: 100px;
+}
+
+@media screen and (max-width: 1018px) {
+  nav {
+    border: blue 1px solid;
+    padding: 0;
+  }
 }
