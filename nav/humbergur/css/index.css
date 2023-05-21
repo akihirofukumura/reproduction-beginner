@@ -10,7 +10,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-
   font-family: "Rampart One", cursive;
   text-decoration: none;
 }
@@ -55,16 +54,16 @@ nav ul li {
 /* ここからハンバーガーメニュー */
 .hum {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 20%;
+  height: 10%;
   background-color: aqua;
-  margin-left: 310px;
+  margin-left: 75%;
   margin-top: 15px;
   border-radius: 10px;
   opacity: 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   nav {
     display: none;
     background-color: salmon;
